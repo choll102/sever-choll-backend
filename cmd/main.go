@@ -34,5 +34,5 @@ func main() {
 	router.ProductRouter(e, sql)
 	router.OrderRouter(e, sql)
 
-	e.Logger.Fatal(e.Start(":3000"))
+	e.Logger.Fatal(e.Start(":8000"))
 }
