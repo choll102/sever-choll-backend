@@ -1,0 +1,5 @@
+development:
+  dialect: postgres
+  datasource: host=35.224.16.221 port=5432 user=choll102 password=123456 dbname=backend-book-stores1 sslmode=disable
+  dir: migrations
+  table: migrations

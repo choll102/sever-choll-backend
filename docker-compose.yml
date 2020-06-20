@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  web-service:
+    container_name: choll-service
+    build: .
+    image: choll-service:1.0
+    ports:
+      - "3000:3000"
+    environment:
+      - APP_NAME=github
+
