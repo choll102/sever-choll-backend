@@ -1,4 +1,5 @@
 -- +migrate Up
+
 CREATE TABLE "orders"
 (
     "user_id" TEXT NOT NULL,

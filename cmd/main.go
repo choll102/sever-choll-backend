@@ -10,11 +10,11 @@ import (
 
 func main() {
 	sql := &db.Sql{
-		Host:     "35.224.16.221",
+		Host:     "34.69.17.6",
 		Port:     5432,
 		UserName: "choll102",
 		Password: "123456",
-		DbName:   "backend-book-stores1",
+		DbName:   "back-end-muasachonline",
 	}
 
 	sql.Connect()
@@ -34,5 +34,5 @@ func main() {
 	router.ProductRouter(e, sql)
 	router.OrderRouter(e, sql)
 
-	e.Logger.Fatal(e.Start(":8000"))
+	e.Logger.Fatal(e.Start(":3000"))
 }
