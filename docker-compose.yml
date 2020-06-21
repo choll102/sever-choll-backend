@@ -2,9 +2,9 @@ version: '2'
 
 services:
   web-service:
-    container_name: choll-service
+    container_name: choll1-service
     build: .
-    image: choll-service:1.0
+    image: choll1-service:1.0
     ports:
       - "3000:3000"
     environment:
